@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Lennox S. Macadangdang — Information Technology graduate and Full Stack Web Developer.">
+  <title>Lennox S. Macadangdang | IT Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">LM<span>.</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">INFORMATION TECHNOLOGY • FULL STACK DEVELOPMENT</p>
+        <h1>Hi, I'm <span>Lennox</span><br>Macadangdang.</h1>
+        <p class="hero-text">
+          An Information Technology graduate focused on full-stack development,
+          backend systems, system logic, and database management.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="Macadangdang_Resume_Oxford.pdf" target="_blank">View Resume</a>
+        </div>
+        <div class="quick-links">
+          <a href="mailto:lennoxmacadangdang@gmail.com">lennoxmacadangdang@gmail.com</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/lennox-macadangdang-5942b6362/" target="_blank">LinkedIn</a>
+          <span>•</span>
+          <span>Quezon City, Philippines</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-bar"><i></i><i></i><i></i></div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Lennox"</span>,
+  role: <span class="green">"Full Stack Developer"</span>,
+  focus: [
+    <span class="green">"Backend"</span>,
+    <span class="green">"Systems"</span>,
+    <span class="green">"Databases"</span>
+  ],
+  status: <span class="green">"Open to opportunities"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Building useful systems,<br><span>not just pretty interfaces.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="large-copy">
+            I'm a dedicated Information Technology graduate with hands-on experience
+            in full-stack development through academic, personal, and internship projects.
+          </p>
+          <p>
+            My strongest interests are backend development, system logic, database management,
+            and building reliable web applications. During my internship at People's Television
+            Network (PTV), I contributed to the development and improvement of an Intern Monitoring System.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>2026</strong><span>BS Information Technology</span></div>
+          <div class="stat"><strong>PTV</strong><span>Full Stack Web Developer Intern</span></div>
+          <div class="stat"><strong>5+</strong><span>Academic & personal projects</span></div>
+          <div class="stat"><strong>CSE</strong><span>Professional Passer • March 2026</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">02 / EXPERIENCE</p>
+        <h2>Practical experience in<br><span>real-world development.</span></h2>
+      </div>
+      <article class="experience-card">
+        <div class="experience-top">
+          <div>
+            <p class="role">On-the-Job Trainee / Full Stack Web Developer Intern</p>
+            <h3>People's Television Network (PTV)</h3>
+          </div>
+          <span class="date">2026</span>
+        </div>
+        <ul>
+          <li>Developed and maintained a full-stack Intern Monitoring System using Next.js, Node.js/Express, and Supabase.</li>
+          <li>Worked on intern registration, attendance, and reporting features.</li>
+          <li>Designed backend authentication and account management logic, including OIC/department auto-assignment, JWT authentication, and OTP verification.</li>
+          <li>Built automated OIC rotation and attendance-tracking features, including PDF export with color-coded status reporting.</li>
+          <li>Assisted with UI/UX improvements, bug fixes, and system maintenance.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <h2>Selected work &amp;<br><span>things I've built.</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-icon">⌘</div>
+          <h3>Carwash — Point of Sale System</h3>
+          <p>
+            Web-based POS system with core sales and inventory features,
+            integrated with inventory and appointment platforms.
+          </p>
+          <div class="tags"><span>Next.js</span><span>Node.js</span><span>Supabase</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-icon">✦</div>
+          <h3>Eatfficienccy</h3>
+          <p>
+            Mobile application that generates recipe ideas from leftover ingredients,
+            promoting food sustainability and reducing food waste.
+          </p>
+          <div class="tags"><span>FlutterFlow</span><span>Mobile</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-icon">₱</div>
+          <h3>Debt Management System</h3>
+          <p>
+            Web-based system for customer accounts, payment records,
+            outstanding balances, and CRUD operations.
+          </p>
+          <div class="tags"><span>Laravel</span><span>MySQL</span><span>PHP</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <div class="project-icon">▦</div>
+          <h3>Financial Management System</h3>
+          <p>
+            Backend-focused application for financial records, transactions,
+            reports, database integration, and responsive UI.
+          </p>
+          <div class="tags"><span>Laravel</span><span>MySQL</span><span>CRUD</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">04 / TECHNICAL SKILLS</p>
+        <h2>Tools I use to<br><span>turn ideas into systems.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <p>React.js</p><p>Next.js</p><p>Tailwind CSS</p><p>CSS3</p>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <p>Node.js</p><p>Laravel (PHP)</p><p>Python</p>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <p>PostgreSQL</p><p>Microsoft SQL Server</p><p>MySQL</p>
+        </div>
+        <div class="skill-group">
+          <h3>Tools & Platforms</h3>
+          <p>GitHub</p><p>Postman</p><p>Vercel</p><p>Railway</p><p>Figma</p><p>VS Code</p><p>FlutterFlow</p><p>Power BI</p><p>XAMPP</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-heading">
+        <p class="eyebrow">05 / EDUCATION & CERTIFICATIONS</p>
+        <h2>Academic foundation.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2022 — 2026</span>
+          <div><h3>Polytechnic University of the Philippines — Quezon City Campus</h3><p>Bachelor of Science in Information Technology</p>
+          <small>President's Lister (SY 2022–2023) • Dean's Lister (SY 2023–2024; SY 2024–2025; SY 2025–2026, 1st Sem.)</small></div>
+        </div>
+        <div class="timeline-item">
+          <span>2016 — 2022</span>
+          <div><h3>St. Theresa's School of Novaliches</h3><p>Science, Technology, Engineering, and Mathematics (STEM)</p></div>
+        </div>
+      </div>
+      <div class="cert-list">
+        <div><b>Civil Service Examination Passer — Professional</b><span>March 2026</span></div>
+        <div><b>MABL Skills Certifications — Foundation</b><span>June 2025</span></div>
+        <div><b>Saylor Academy Certificate of Achievement — Information Security</b><span>March 2025</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <p class="eyebrow">06 / CONTACT</p>
+      <h2>Let's build something<br><span>useful together.</span></h2>
+      <p>I'm open to opportunities in information systems, software development, and full-stack development.</p>
+      <a class="contact-email" href="mailto:lennoxmacadangdang@gmail.com">lennoxmacadangdang@gmail.com</a>
+      <div class="contact-links">
+        <a href="tel:+639763381725">+63 976 338 1725</a>
+        <a href="https://www.linkedin.com/in/lennox-macadangdang-5942b6362/" target="_blank">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Lennox S. Macadangdang</span>
+    <span>Designed & built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
